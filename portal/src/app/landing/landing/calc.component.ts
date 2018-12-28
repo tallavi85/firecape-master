@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { LazyService } from 'src/app/shared/lazy-service.service';
 
 @Component({
-  selector: 'app-calc',
+  selector: 'app-landing',
   templateUrl: './calc.component.html',
   styleUrls: ['./calc.component.sass']
 })
