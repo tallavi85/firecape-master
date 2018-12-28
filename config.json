@@ -1,0 +1,93 @@
+{
+    "prices": [
+        {
+            "label": "61+ RANGE 50+ HP",
+            "sweets": 3500,
+            "price": 110,
+            "prayer": false
+        },
+        {
+            "label": "70+ RANGE 50+ HP",
+            "sweets": 3000,
+            "price": 85,
+            "prayer": false
+        },
+        {
+            "label": "75+ RANGE 50+ HP",
+            "sweets": 2500,
+            "price": 75,
+            "prayer": false
+
+        },
+        {
+            "label": "85+ RANGE 50+ HP",
+            "sweets": 2500,
+            "price": 65,
+            "prayer": false
+        },
+        {
+            "label": "90+ RANGE 50+ HP",
+            "sweets": 2500,
+            "price": 55,
+            "prayer": false
+        },
+        {
+            "label": "96+ RANGE 50+ HP",
+            "sweets": 2500,
+            "price": 49,
+            "prayer": false
+        },
+        {
+            "label": "61+ RANGE 1 DEF",
+            "sweets": 0,
+            "price": 20,
+            "prayer": true
+        },
+        {
+            "label": "70+ RANGE 1 DEF",
+            "sweets": 2500,
+            "price": 15,
+            "prayer": true
+        },
+        {
+            "label": "75+ RANGE 1 DEF",
+            "sweets": 0,
+            "price": 11,
+            "prayer": true
+        },
+        {
+            "label": "85+ RANGE 1 DEF",
+            "sweets": 0,
+            "price": 8.5,
+            "prayer": true
+        },
+        {
+            "label": "61+ RANGE 44-99 DEF",
+            "sweets": 0,
+            "price": 15,
+            "prayer": true
+        },
+        {
+            "label": "70+ RANGE 44-99 DEF",
+            "sweets": 2500,
+            "price": 10,
+            "prayer": true
+        },
+        {
+            "label": "75+ RANGE 44-99 DEF",
+            "sweets": 0,
+            "price": 8,
+            "prayer": true
+        },
+        {
+            "label": "85+ RANGE 44-99 DEF",
+            "sweets": 0,
+            "price": 5,
+            "prayer": true
+        }
+    ],
+    "images": [
+        "https://cache.sythe.org/ySZnsJltoUZ2RbLkAjRfBGh0dHBzOi8vaS5pbWd1ci5jb20vUVpEQ1RoUy5wbmc=", "https://cache.sythe.org/yYPedRyCD//RNQY0II6y5Gh0dHBzOi8vaS5pbWd1ci5jb20vbFI5THBYeS5wbmc=", "https://cache.sythe.org/gg/+5OD67+H1x24NR6vwDmh0dHBzOi8vaS5pbWd1ci5jb20vV3FCZnZRay5wbmc=", "https://cache.sythe.org/zZ5zcKnpfomhCFYnwWAvcmh0dHBzOi8vaS5pbWd1ci5jb20veFpVUUdoVS5wbmc=", "https://cache.sythe.org/979V+IXXY6q3KFT/AkPHNWh0dHBzOi8vaS5pbWd1ci5jb20vRG5CM0owcS5wbmc=", "https://cache.sythe.org/A/srY4QTkhGA4SMCpdH94Gh0dHBzOi8vaS5pbWd1ci5jb20vakl4YnlSSS5wbmc=", "https://cache.sythe.org/EbsCOo7PSf7ahWLhdZtX8mh0dHBzOi8vaS5pbWd1ci5jb20vdXN3YnY5Vy5wbmc=", "https://cache.sythe.org/s8HnSkTaH4GkH5JLIoUigGh0dHBzOi8vaS5pbWd1ci5jb20vVG9MMHJXVS5wbmc=", "https://cache.sythe.org/qRH3Q3DerzxtgYmjuurOGWh0dHBzOi8vaS5pbWd1ci5jb20vU2Z4cWNqUi5wbmc=", "https://cache.sythe.org//a7Ww485ZOAq1993QfLLUWh0dHBzOi8vaS5pbWd1ci5jb20vV2pCZ2U3SS5wbmc=", "https://cache.sythe.org/rgNmvoM5DwiDIxbG4cdWjmh0dHBzOi8vaS5pbWd1ci5jb20vR1FWRHZDTi5wbmc=", "https://cache.sythe.org/d1Fre1Pcrowb7wOR7IujKWh0dHBzOi8vaS5pbWd1ci5jb20vd1dWcXlrQi5wbmc="
+    
+    ]
+}

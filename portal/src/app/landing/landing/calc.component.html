@@ -1,0 +1,68 @@
+<nav class="navbar navbar-expand-lg">
+  <a class="navbar-brand" href="#"><img src="./assets/logos/firecape.png" /></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li style="line-height: 40px" class="nav-item active">
+        <a routerLink="" class="nav-link">Home <span class="sr-only">(current)</span></a>
+      </li>
+        <li style="line-height: 40px" class="nav-item active">
+        <a style="vertical-align: middle" href="https://www.sythe.org/threads/25-donor-1-anteswedes-1-31-prayer-firecape-service-firecapes-com-10hp-1-pray-free-jad/" class="nav-link">Sythe</a>
+      </li>
+      <li style="line-height: 40px" class="">
+        <a class="nav-link activey">Prices</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div class="floatSoc">
+<a href="skype:live:anteswede95/?add"><img src="../../../assets/logos/skype.png"></a>
+    <br>
+<img src="../../../assets/logos/discord.png">
+</div>
+<div class="container-fluid">
+    
+    <h1>Enter your levels</h1>
+    <div class="row">
+        <div class="contentCalculator">
+        <div class="col" style="margin-top: 1%; margin-bottom: 1%">
+        <span><img src="../../../assets/logos/range.png" style="margin-right: 5px;">Ranged Level: <span class="levels" #levelindx >61</span></span>
+          <input #slidex id="rangedSlider" class="slider" value="61" min="61" max="99" (input)="updateRange(slidex.value); levelindx.innerText = slidex.value; pricey.innerText = getPrice()" type="range" />
+        
+        
+        </div>
+           <hr> 
+        <div class="col" style="margin-top: 1%; margin-bottom: 1%">
+        <span><img src="../../../assets/logos/hp.png" style="margin-right: 5px;">Hitpoints: <span class="levels" #levelindx2 >50</span></span>
+          <input #slidex2 id="rangedSlider" class="slider" value="50" min="10" max="99" (input)="updateHP(slidex.value); levelindx2.innerText = slidex2.value; pricey.innerText = getPrice()" type="range" />
+        
+        
+        </div>
+            <hr>
+        <div class="col" style="margin-top: 1%; margin-bottom: 1%">
+        <span><img src="../../../assets/logos/defence.png" style="margin-right: 5px;">Defence Level: <span class="levels" #levelindx3 >1</span></span>
+          <input #slidex3 id="rangedSlider" class="slider" value="1" min="1" max="99" (input)="updateDef(slidex3.value); levelindx3.innerText = slidex3.value; pricey.innerText = getPrice()" type="range" />
+        
+        
+        </div>
+            <hr>
+            
+        <div class="col" style="margin-top: 1%; margin-bottom: 1%">
+            <div class="inputGroup">
+    <input #pray (change)="updatePray(pray.checked); pricey.innerText = getPrice()" id="option1" name="option1" type="checkbox"/>
+    <label for="option1"><img src="../../../assets/logos/pray.png" style="margin-right: 5px">43+ Prayer</label>
+  </div>
+        
+        
+        </div>
+        </div>
+    </div>
+
+    <h2 id="pricey" #pricey></h2>
+
+
+</div>
